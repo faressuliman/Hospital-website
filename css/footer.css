@@ -1,0 +1,9 @@
+footer {
+    margin-top: 100px;
+    background-color: #666;
+    height: 30vh;
+}
+
+.footer-topline {
+    border-top: 3px solid hsl(180, 92%, 38%);
+}
