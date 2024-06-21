@@ -1,9 +1,88 @@
-.leftsection{
-    background: #ffffff;
-    box-shadow: 0px 0px 23px #0080f917;
-    border-radius: 24px;
-    max-width: 100%;
-    padding: 30px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
     display: flex;
-    align-items: center;
+    justify-content: space-between; 
+    padding: 7%;
+    border-radius: 10px;
+}
+.leftsection {
+    flex: 0 0 56%; 
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white; 
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 23px #0080f917;
+    border-radius: 20px;
+}
+.rightsection {
+    flex: 0 0 35%; 
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    margin-left: 5%; 
+}
+.rightsection p {
+    margin-bottom: 10px; 
+    font-size: 18px;
+}
+.rightsection i {
+    color: hsl(180, 92%, 38%); 
+    font-size: 24px; 
+    margin-right: 10px; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.form-row input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid grey; 
+}
+.form-row select {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid grey; 
+}
+.form-row input:last-child {
+    margin-right: 0; 
+}
+form textarea {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid grey; 
+    width: 100%;
+    box-sizing: border-box; 
+}
+form button {
+    padding: 15px;
+    font-size: 18px;
+    color: hsl(180, 92%, 38%);
+    background-color: white;
+    border: 1px solid hsl(180, 92%, 38%);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    width: 21%;
+    transition: all ease-in-out 0.3s;
 }
