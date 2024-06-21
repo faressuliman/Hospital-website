@@ -26,8 +26,14 @@
         </nav>
         
         <div class="signin">
-            <button class="signin-btn"><i class="fa-solid fa-user"></i>  Sign in</button>
+            <button class="signin-btn" id="login-btn"><i class="fa-solid fa-user"></i>  Sign in</button>
         </div>
+
+        <script>
+            document.getElementById("login-btn").addEventListener("click", function () {
+            window.location.href = "signin.html";
+          });
+        </script>
 
     </header>
 
