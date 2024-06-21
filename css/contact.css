@@ -1,0 +1,9 @@
+.leftsection{
+    background: #ffffff;
+    box-shadow: 0px 0px 23px #0080f917;
+    border-radius: 24px;
+    max-width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}

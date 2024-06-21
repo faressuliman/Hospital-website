@@ -3,9 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/header.css">
+    <!-- <link rel="stylesheet" href="/css/contact.css"> -->
     <title>Lifeline | Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between; 
+            padding: 7%;
+            border-radius: 10px;
+        }
+        .leftsection {
+            flex: 0 0 56%; 
+            padding: 30px;
+            box-sizing: border-box;
+            background-color: white; 
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 23px #0080f917;
+            border-radius: 20px;
+        }
+        .rightsection {
+            flex: 0 0 35%; 
+            padding: 30px;
+            box-sizing: border-box;
+            background-color: #F9F9F9;
+            border-radius: 20px;
+            margin-left: 5%; 
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+        }
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        .form-row input {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            margin-right: 10px;
+            border-radius: 10px;
+            border: 1px solid grey; 
+        }
+        .form-row input:last-child {
+            margin-right: 0; /* Remove margin from the last input */
+        }
+        form textarea {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: 1px solid grey; 
+            width: 100%;
+            box-sizing: border-box; /* To include padding in the width */
+        }
+        form button {
+            padding: 15px;
+            font-size: 18px;
+            color: hsl(180, 92%, 38%);
+            background-color: white;
+            border: 1px solid hsl(180, 92%, 38%);
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+            width: 20%;
+            transition: all ease-in-out 0.3s;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none;">
+                <h1 style="color: grey"><span style="color:hsl(180, 92%, 38%)">L</span>ifeline</h1>
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="departments.html"><b>Departments</b></a>
+            <a href="doctors.html"><b>Doctors</b></a>
+            <a href="abourtus.html"><b>About us</b></a>
+            <a href="contact.html"><b>Contact</b></a>
+            <a href="app.html"><b>Appointment</b></a>
+        </nav>
+        <div class="signin">
+            <button class="signin-btn" id="login-btn"><i class="fa-solid fa-user"></i> Sign in</button>
+        </div>
+        <script>
+            document.getElementById("login-btn").addEventListener("click", function () {
+            window.location.href = "signin.html";
+          });
+        </script>
+    </header>
+    <div class="container">
+        <div class="leftsection">
+            <h2 style="color:hsl(180, 92%, 38%)">Didn't Find An Answer To Your Inquiry ?</h2><br>
+            <p style="color:hsl(180, 92%, 38%)">Fill in your information and we will reply to you as soon as possible</p><br>
+            <form action="">
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" list="branches" placeholder="Select Closest Branch">
+                </div>
+                <datalist id="branches">
+                    <option value="First branch"></option>
+                    <option value="Second branch"></option>
+                    <option value="Third branch"></option>
+                </datalist>
+                <div class="form-row">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <textarea name="message" rows="5" placeholder="Write your inquiry or message here (optional)"></textarea><br>
+                <button>Send Message</button>
+            </form>
+        </div>
+        <div class="rightsection">
+            <h3>Contact Information</h3>
+            <p>Address: 1234 Street Name, City, Country</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Email: info@lifeline.com</p>
+        </div>
+    </div>
     
+    <footer>
+        <div class="footer-topline"></div>
+        <div class="footer-container"></div>
+    </footer>
 </body>
 </html>
