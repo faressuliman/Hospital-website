@@ -27,10 +27,6 @@ body {
     margin-bottom: 30px;
 }
 
-body {
-    background-color: #F5F8FB;
-}
-
 .departments-row {
     display: flex;
     justify-content: space-between;
