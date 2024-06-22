@@ -13,6 +13,18 @@
             margin: 0;
             padding: 0;
         }
+        .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px 50px;
+}
+.line {
+    width: 60px;
+    border-bottom: 2px solid hsl(180, 92%, 38%);
+    margin-top: 5px;
+}
 
         .container {
             display: flex;
@@ -31,50 +43,56 @@
             box-shadow: 0px 0px 23px #0080f917;
             border-radius: 20px;
             border: 1px solid hsl(180, 92%, 38%);
+            margin-top: 50px;
         }
 
         form {
-            display: flex;
-            flex-direction: column;
-            border-radius: 10px;
-            width: 100%;
-        }
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.form-row input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 36%);
+    transition: 0.5s;
+    outline: none; 
+}
+.form-row select {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 36%); 
+}
+.form-row input:last-child {
+    margin-right: 0; 
+}
 
-        .form-row {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
+form input:focus,
+form textarea:focus,
+form select:focus {
+    border: 2px solid hsl(180, 92%, 38%);
+}
 
-        .form-row input,
-        .form-row select,
-        .form-row textarea {
-            flex: 1;
-            padding: 15px; 
-            font-size: 16px;
-            border-radius: 10px;
-            border: 2px solid hsl(0, 0%, 36%);
-            transition: 0.5s;
-            outline: none; 
-            box-sizing: border-box; 
-        }
-
-        .form-row input[type="date"] {
-            width: calc(100% - 10px); 
-        }
-
-        .form-row input:last-child {
-            margin-right: 0; 
-        }
-
-        .form-row select {
-            padding: 12px;
-            font-size: 16px;
-            border-radius: 10px;
-            border: 2px solid hsl(0, 0%, 36%);
-            transition: 0.5s;
-            outline: none; 
-        }
+form textarea {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 36%); 
+    width: 100%;
+    box-sizing: border-box; 
+}
 
         .form-row textarea {
             flex: 1; 
@@ -138,6 +156,10 @@
             });
         </script>
     </header>
+    <div class="title">
+        <h2 style="color: hsl(0, 0%, 40%);">APPOINTMENT</h2>
+        <div class="line"></div>
+    </div>
     <div class="container">
         <div class="section">
             <div>
