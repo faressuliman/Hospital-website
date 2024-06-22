@@ -1,8 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 .title {
     display: flex;
@@ -16,12 +13,14 @@ body {
     border-bottom: 2px solid hsl(180, 92%, 38%);
     margin-top: 5px;
 }
+
+
 .container {
     display: flex;
     justify-content: space-between; 
+    border-radius: 10px;
     margin-left: 250px;
     margin-right: 300px;
-    border-radius: 10px;
 }
 .leftsection {
     flex: 0 0 56%; 
