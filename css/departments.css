@@ -2,7 +2,7 @@ body {
     background-color: #F5F8FB;
 }
 
-.container{
+.container {
     margin-left: 250px; 
     margin-right: 300px;
 }
@@ -15,20 +15,16 @@ body {
     margin-bottom: 50px;
 }
 
-.title h3{    
+.title h3 {    
     color: #222;
     font-weight: 700;
     font-size: 23px;
 }
 
-.title h2{
+.title h2 {
     color: #08BABA;
     font-weight: 700;
     margin-bottom: 30px;
-}
-
-body {
-    background-color: #F5F8FB;
 }
 
 .departments-row {
@@ -36,35 +32,46 @@ body {
     justify-content: space-between;
     flex-wrap: wrap; 
 }
+
 .department-box {
     width: 32%;  
     margin-bottom: 20px;
     text-align: center;
     box-sizing: border-box;
-    transition: 0.7s ease;  
+    transition: 0.7s ease;
+    overflow: hidden;  /* Prevent image from overflowing */
 }
 
 .department-box:hover {
     transform: scale(1.05);
     opacity: 0.9;
-
 }
+
 .department-box img {
     width: 100%;
     height: auto;
     display: block;
+    transition: transform 0.5s ease;
+    transform-origin: center;  /* Keep image centered while zooming */
 }
+
+.department-box:hover img {
+    transform: scale(1.1);  /* Zoom-in effect */
+}
+
 .department-info {
     background-color: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin: 0;  
 }
+
 .department-info h3 {
     margin: 15px 0;
     display: flex;  
     align-items: center;  
 }
+
 .department-info h3 img {
     width: 30px;  
     margin-right: 10px;  
