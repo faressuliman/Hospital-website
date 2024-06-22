@@ -6,6 +6,114 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/app.css">
     <title>Lifeline | Appointment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center; 
+            align-items: flex-start; 
+            min-height: 100vh; 
+            background-color: whitesmoke;
+            padding: 20px; 
+        }
+
+        .section {
+            width: 80%; 
+            padding: 30px;
+            box-sizing: border-box;
+            background-color: white;
+            box-shadow: 0px 0px 23px #0080f917;
+            border-radius: 20px;
+            border: 1px solid hsl(180, 92%, 38%);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .form-row input,
+        .form-row select,
+        .form-row textarea {
+            flex: 1;
+            padding: 15px; 
+            font-size: 16px;
+            border-radius: 10px;
+            border: 2px solid hsl(0, 0%, 36%);
+            transition: 0.5s;
+            outline: none; 
+            box-sizing: border-box; 
+        }
+
+        .form-row input[type="date"] {
+            width: calc(100% - 10px); 
+        }
+
+        .form-row input:last-child {
+            margin-right: 0; 
+        }
+
+        .form-row select {
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 2px solid hsl(0, 0%, 36%);
+            transition: 0.5s;
+            outline: none; 
+        }
+
+        .form-row textarea {
+            flex: 1; 
+            padding: 12px; 
+            font-size: 16px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: 2px solid hsl(0, 0%, 36%); 
+            width: 100%; 
+            height: 200px; 
+            box-sizing: border-box; 
+            resize: vertical;
+        }
+
+        form button {
+            padding: 15px;
+            font-size: 18px;
+            color: white;
+            background-color: hsl(180, 92%, 38%);
+            border: 1px solid hsl(180, 92%, 38%);
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+            width: 27%; 
+            transition: 0.7s ease;
+            align-self: flex-start; 
+        }
+
+        form button i {
+            margin-right: 6px;
+        }
+
+        form button:hover {
+            background-color: hsl(180, 81%, 34%);
+            color: white;
+        }
+
+        
+    </style>
 </head>
 <body>
     <header>
@@ -26,33 +134,35 @@
         </div>
         <script>
             document.getElementById("login-btn").addEventListener("click", function () {
-            window.location.href = "signin.html";
-        });
+                window.location.href = "signin.html";
+            });
         </script>
     </header>
     <div class="container">
-        <div>
-            <h3> Our help desk</h3>
-            <h2>Book an appointment</h2>
-        </div>
-        <div>
-            <form action="">
-                <div><select>
-                    <option value selected disabled>Select a clinic to visit</option>
-                    <option value="">First </option>
-                    <option value="">Second </option>
-                    <option value="">Third </option>
-                </select></div>
+        <div class="section">
+            <div>
+                <h3> Our help desk</h3><br>
+                <h2>Book an appointment</h2><br>
+            </div>
+            <form>
+                <div class="form-row">
+                    <select>
+                        <option value="" selected disabled>Select a clinic to visit</option>
+                        <option value="">First Clinic</option>
+                        <option value="">Second Clinic</option>
+                        <option value="">Third Clinic</option>
+                    </select>
+                </div>
                 <div class="form-row">
                     <input type="text" placeholder="Full Name">
-                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Phone Number" style="margin-left: -10px;">
                 </div>
                 <div class="form-row">
                     <input type="email" placeholder="Email">
-                    <input type="date" placeholder="Appointment Date">
+                    <input type="date" style="margin-left: -10px;">
                 </div>
-                <div>
-                    <textarea name="message" rows="5" placeholder="Type your necessary message here..."></textarea><br>
+                <div class="form-row">
+                    <textarea name="message" rows="5" placeholder="Type your necessary message here..."></textarea>
                 </div>
                 <button>Make an Appointment</button>
             </form>
