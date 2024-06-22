@@ -87,5 +87,12 @@ form button {
     text-align: center;
     text-wrap: nowrap;
     width: 27%;
-    transition: all ease-in-out 0.3s;
+    transition: 0.7s ease;
 }
+
+form button:hover {
+    background-color: hsl(180, 92%, 38%);
+    color: white;
+    cursor: pointer;
+}
+
