@@ -14,7 +14,6 @@ body {
     margin-top: 5px;
 }
 
-
 .container {
     display: flex;
     justify-content: space-between; 
@@ -80,7 +79,6 @@ form textarea {
     box-sizing: border-box; 
 }
 
-
 form button {
     padding: 15px;
     font-size: 18px;
@@ -93,6 +91,7 @@ form button {
     text-wrap: nowrap;
     width: 27%;
     transition: 0.7s ease;
+    align-self: flex-end; 
 }
 
 form button i {
