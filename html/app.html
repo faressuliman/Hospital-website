@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/app.css">
     <title>Lifeline | Appointment</title>
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none;">
+                <h1 style="color: grey"><span style="color:hsl(180, 92%, 38%)">L</span>ifeline</h1>
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="departments.html"><b>Departments</b></a>
+            <a href="doctors.html"><b>Doctors</b></a>
+            <a href="abourtus.html"><b>About us</b></a>
+            <a href="contact.html"><b>Contact</b></a>
+            <a href="app.html"><b>Appointment</b></a>
+        </nav>
+        <div class="signin">
+            <button class="signin-btn" id="login-btn"><i class="fa-solid fa-user"></i> Sign in</button>
+        </div>
+        <script>
+            document.getElementById("login-btn").addEventListener("click", function () {
+            window.location.href = "signin.html";
+        });
+        </script>
+    </header>
+    <div class="container">
+        <div>
+            <h3> Our help desk</h3>
+            <h2>Book an appointment</h2>
+        </div>
+        <div>
+            <form action="">
+                <div><select>
+                    <option value selected disabled>Select a clinic to visit</option>
+                    <option value="">First </option>
+                    <option value="">Second </option>
+                    <option value="">Third </option>
+                </select></div>
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Phone Number">
+                </div>
+                <div class="form-row">
+                    <input type="email" placeholder="Email">
+                    <input type="date" placeholder="Appointment Date">
+                </div>
+                <div>
+                    <textarea name="message" rows="5" placeholder="Type your necessary message here..."></textarea><br>
+                </div>
+                <button>Make an Appointment</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
