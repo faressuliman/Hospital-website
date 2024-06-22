@@ -55,6 +55,13 @@
             border-radius: 10px;
             border: 1px solid grey; 
         }
+        .form-row select {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid grey; 
+        }
         .form-row input:last-child {
             margin-right: 0; /* Remove margin from the last input */
         }
@@ -111,13 +118,14 @@
             <form action="">
                 <div class="form-row">
                     <input type="text" placeholder="Full Name">
-                    <input type="text" list="branches" placeholder="Select Closest Branch">
+                    <select>
+                        <option value selected disabled>Select Closest Branch</option>
+                        <option value="First branch">First branch</option>
+                        <option value="Second branch">Second branch</option>
+                        <option value="Third branch">Third branch</option>
+                    </select>
                 </div>
-                <datalist id="branches">
-                    <option value="First branch"></option>
-                    <option value="Second branch"></option>
-                    <option value="Third branch"></option>
-                </datalist>
+                    
                 <div class="form-row">
                     <input type="text" placeholder="Phone Number">
                     <input type="email" placeholder="Email Address">
