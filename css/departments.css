@@ -2,22 +2,20 @@ body {
     background-color: #F5F8FB;
 }
 .container{
-    margin-left: 250px;
+    margin-left: 250px; 
     margin-right: 300px;
 }
-.title h2{    
+.title h3{    
     position: relative;
     color: #222;
-    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 8px;
     z-index: 99;
 }
 
-.title p{
+.title h2{
     color: #08BABA;
-    font-size: 15px; 
     font-weight: 700;
     text-align: center;
 }
@@ -32,13 +30,19 @@ body {
 .departments-row {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
 }
 .department-box {
     width: 32%;  
     margin-bottom: 20px;
     text-align: center;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    transition: 0.7s ease;  
+}
+
+.department-box:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 .department-box img {
     width: 100%;
