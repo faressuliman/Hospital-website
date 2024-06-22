@@ -4,10 +4,21 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px 50px;
+}
+.line {
+    width: 60px;
+    border-bottom: 2px solid hsl(180, 92%, 38%);
+    margin-top: 5px;
+}
 .container {
     display: flex;
     justify-content: space-between; 
-    margin-top: 100px;
     margin-left: 250px;
     margin-right: 300px;
     border-radius: 10px;
@@ -17,27 +28,11 @@ body {
     padding: 30px;
     box-sizing: border-box;
     background-color: white; 
-    border: 1px solid #ccc;
+    border: 1px solid hsl(180, 92%, 38%);
     box-shadow: 0px 0px 23px #0080f917;
     border-radius: 20px;
 }
-.rightsection {
-    flex: 0 0 35%; 
-    padding: 30px;
-    box-sizing: border-box;
-    background-color: #F9F9F9;
-    border-radius: 20px;
-    margin-left: 5%; 
-}
-.rightsection p {
-    margin-bottom: 10px; 
-    font-size: 18px;
-}
-.rightsection i {
-    color: hsl(180, 92%, 38%); 
-    font-size: 24px; 
-    margin-right: 10px; 
-}
+
 form {
     display: flex;
     flex-direction: column;
@@ -55,32 +50,43 @@ form {
     font-size: 16px;
     margin-right: 10px;
     border-radius: 10px;
-    border: 1px solid grey; 
+    border: 2px solid hsl(0, 0%, 36%);
+    transition: 0.5s;
+    outline: none; 
 }
 .form-row select {
     flex: 1;
     padding: 10px;
     font-size: 16px;
     border-radius: 10px;
-    border: 1px solid grey; 
+    border: 2px solid hsl(0, 0%, 36%); 
 }
 .form-row input:last-child {
     margin-right: 0; 
 }
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    border: 2px solid hsl(180, 92%, 38%);
+}
+
 form textarea {
     padding: 10px;
     font-size: 16px;
     margin-bottom: 10px;
     border-radius: 10px;
-    border: 1px solid grey; 
+    border: 2px solid hsl(0, 0%, 36%); 
     width: 100%;
     box-sizing: border-box; 
 }
+
+
 form button {
     padding: 15px;
     font-size: 18px;
-    color: hsl(180, 92%, 38%);
-    background-color: white;
+    color: white;
+    background-color: hsl(180, 92%, 38%);
     border: 1px solid hsl(180, 92%, 38%);
     cursor: pointer;
     border-radius: 10px;
@@ -90,9 +96,61 @@ form button {
     transition: 0.7s ease;
 }
 
+form button i {
+    margin-right: 6px;
+}
+
 form button:hover {
-    background-color: hsl(180, 92%, 38%);
+    background-color: hsl(180, 81%, 34%);
     color: white;
     cursor: pointer;
 }
 
+.rightsection .contact__info__title {
+    text-align: center;
+    color: hsl(0, 0%, 36%);
+}
+
+.rightsection {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border: 1px solid hsl(180, 92%, 38%);
+    box-shadow: 0px 0px 23px #0080f917;
+    border-radius: 20px;
+    margin-left: 5%; 
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.address, 
+.phone, 
+.email {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 100px;
+}
+
+.icon i {
+    font-size: 18px;
+    border-radius: 50%;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    background-color: hsl(180, 92%, 38%);
+}
+
+.address-text,
+.phone-number,
+.email-text {
+    margin-top: 10px;
+    margin-left: 20px;
+}
