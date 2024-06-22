@@ -24,14 +24,14 @@ p {
     margin-right: 300px;
 }
 
-.line {
+.hr {
 	width: 70px;
     margin-top: 10px;
 	margin-bottom: 10px;
 	border-bottom: 2px solid hsl(180, 92%, 38%);
 }
 
-.line2 {
+.hr2 {
     margin-right: 300px;
     margin-left: 250px;
     border-bottom: 2px solid hsl(180, 92%, 38%);
@@ -88,5 +88,4 @@ p {
     margin-left: 250px;
     margin-right: 300px;
     margin-top: 30px;
-    margin-bottom: 200px;
 }
