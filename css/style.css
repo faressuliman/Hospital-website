@@ -20,7 +20,7 @@ p {
     justify-content: center;
     height: 30vh;
     flex-direction: column;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-right: 300px;
 }
 
@@ -33,7 +33,7 @@ p {
 
 .line2 {
     margin-right: 300px;
-    margin-left: 300px;
+    margin-left: 250px;
     border-bottom: 2px solid hsl(180, 92%, 38%);
 }
 
@@ -43,7 +43,7 @@ p {
     align-items: center;
     flex-direction: column;
     height: 20vh;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-right: 300px;
 }
 
@@ -56,7 +56,7 @@ p {
 .srow1 {
     display: flex;
     justify-content: space-between;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-right: 300px;
 }
 
@@ -85,7 +85,7 @@ p {
 .srow2 {
     display: flex;
     justify-content: space-between;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-right: 300px;
     margin-top: 30px;
 }

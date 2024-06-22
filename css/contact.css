@@ -7,7 +7,9 @@ body {
 .container {
     display: flex;
     justify-content: space-between; 
-    padding: 7%;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 300px;
     border-radius: 10px;
 }
 .leftsection {
@@ -83,6 +85,7 @@ form button {
     cursor: pointer;
     border-radius: 10px;
     text-align: center;
-    width: 21%;
+    text-wrap: nowrap;
+    width: 27%;
     transition: all ease-in-out 0.3s;
 }
