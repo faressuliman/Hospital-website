@@ -1,70 +1,95 @@
-body {
-    background-color: white;
-}
+<style>
+  body {
+    background-color: #F5F8FB;
+  }
 
-.container {
-    margin-left: 250px; 
+  .container {
+    margin-left: 250px;
     margin-right: 300px;
-}
+  }
 
-.title {
+  .title {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-}
+  }
 
-.title h3 {
+  .title h3 {
     font-size: 16px;
     color: #08BABA;
     font-weight: 500;
-}
+  }
 
-.title h2 {
+  .title h2 {
     color: #222;
     line-height: 60px;
     margin-bottom: 15px;
     font-size: 40px;
     font-weight: 700;
-}
-.clinics-info {
-    background-color: #f0f0f0;
+  }
+
+  .clinics-info {
+    background-color: white;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin: 0;  
-}
-.clinics-info h3 {
-    display: flex;  
-    align-items: center;  
-}
-.clinics-row {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+  }
+
+  .clinics-info h3 {
+    display: flex;
+    align-items: center;
+  }
+
+  .clinics-row {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
-}
-.clinics-box {
-    width: 31%;  
+    flex-wrap: wrap;
+  }
+
+  .clinics-box {
+    width: 31%;
     margin-bottom: 20px;
     text-align: center;
     box-sizing: border-box;
     transition: 0.7s ease;
-    overflow: hidden;  
-}
-.clinics-box:hover {
+    overflow: hidden;
+    position: relative; 
+  }
+
+  .clinics-box:hover {
     transform: scale(1.05);
     opacity: 0.9;
-    border: 2px solid hsl(180, 92%, 38%);
-}
+    border: 1px solid #08BABA; 
 
-.clinics-box img {
+  }
+
+  .clinics-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #08BABA; 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .clinics-box:hover::before {
+    opacity: 0.3;
+  }
+
+  .clinics-box img {
     width: 100%;
     height: auto;
     display: block;
     transition: transform 0.5s ease;
-    transform-origin: center;  
-}
+    transform-origin: center;
+  }
 
-.clinics-box:hover img {
-    transform: scale(1.1);  
-}
+  .clinics-box:hover img {
+    transform: scale(1.1);
+  }
+</style>
