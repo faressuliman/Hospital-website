@@ -1,11 +1,11 @@
-
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between; 
     border-radius: 10px;
     margin-left: 250px;
     margin-right: 300px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .container h2 {
     color: #222;
@@ -21,17 +21,29 @@
     margin-top: 5px;
 }
 .textt h3{
-    
-        color: #22678c;
-        font-size: 21px;
-        font-weight: 500;
-        line-height: 28px;
-        margin: 0 0 0;
-        margin-bottom: 20px;
-    }
+    color: #22678c;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0 0 0;
+    margin-bottom: 20px;
+}
+
 p {
     position: relative;
     line-height: 1.8em;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.content {
+    width: 60%;
+    margin-right: 100px;
 }
 
