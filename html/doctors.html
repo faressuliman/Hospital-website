@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lifeline | Doctors</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/doctors.css">
 </head>
 <body>
+    <header>
+        
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none;">
+                <h1 style="color: grey"><span style="color:hsl(180, 92%, 38%)">L</span>ifeline</h1>
+            </a>
+        </div>
+
+        <nav class="navbar">
+            <a href="departments.html"><b>Departments</b></a>
+            <a href="cLinics.html"><b>Clinics</b></a>
+            <a href="doctors.html"><b>Doctors</b></a>
+            <a href="aboutus.html"><b>About us</b></a>
+            <a href="contact.html"><b>Contact</b></a>
+            <a href="app.html"><b>Appointment</a>
+        </nav>
+        
+        <div class="signin">
+            <button class="signin-btn" id="login-btn"><i class="fa-solid fa-user"></i>  Sign in</button>
+        </div>
+
+        <script>
+            document.getElementById("login-btn").addEventListener("click", function () {
+            window.location.href = "signin.html";
+        });
+        </script>
+
+    </header>
     
+    <main>
+
+        <div class="title">
+            <h2 style="color: hsl(0, 0%, 40%);">DOCTORS</h2>
+            <div class="hline"></div>
+        </div>
+
+    </main>
 </body>
 </html>
