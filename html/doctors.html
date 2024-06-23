@@ -3,47 +3,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lifeline | Doctors</title>
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/doctors.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>Lifeline | Doctors</title>
 </head>
 <body>
     <header>
-        
         <div class="logo">
             <a href="index.html" style="text-decoration: none;">
                 <h1 style="color: grey"><span style="color:hsl(180, 92%, 38%)">L</span>ifeline</h1>
             </a>
         </div>
-
         <nav class="navbar">
             <a href="departments.html"><b>Departments</b></a>
             <a href="cLinics.html"><b>Clinics</b></a>
             <a href="doctors.html"><b>Doctors</b></a>
-            <a href="aboutus.html"><b>About us</b></a>
+            <a href="abourtus.html"><b>About us</b></a>
             <a href="contact.html"><b>Contact</b></a>
-            <a href="app.html"><b>Appointment</a>
+            <a href="app.html"><b>Appointment</b></a>
         </nav>
-        
         <div class="signin">
-            <button class="signin-btn" id="login-btn"><i class="fa-solid fa-user"></i>  Sign in</button>
+            <button class="signin-btn" id="login-btn"><i class="fa-solid fa-user"></i> Sign in</button>
         </div>
-
         <script>
             document.getElementById("login-btn").addEventListener("click", function () {
             window.location.href = "signin.html";
         });
         </script>
-
     </header>
-    
+
     <main>
 
         <div class="title">
             <h2 style="color: hsl(0, 0%, 40%);">DOCTORS</h2>
             <div class="hline"></div>
         </div>
+        
+        <div class="container">
+
+            <div class="row" id="row1">
+
+                <div class="box" id="box1">
+
+                    <div class="image-container">
+                        <img src="/images/doctor1.jpg" alt="doctor" />
+                    </div>
+
+                    <div class="info" id="box1__info">
+                        <h3>Dr. Ethan Mitchell</h3>
+                        <p>Cardiology</p>
+                    </div>
+
+                </div>
+
+                <div class="box" id="box2">
+
+                    <div class="image-container">
+                        <img src="/images/doctor2.jpg" alt="doctor" />
+                    </div>
+
+                    <div class="info" id="box1__info">
+                        <h3>Dr. Liam Adams</h3>
+                        <p>Nephrology</p>
+                    </div>
+
+                </div>
+                
+                <div class="box" id="box3">
+
+                    <div class="image-container">
+                        <img src="/images/doctor3.jpg" alt="doctor" />
+                    </div>
+
+                    <div class="info" id="box1__info">
+                        <h3>Dr. Will Smith</h3>
+                        <p>Oncology</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row" id="row2">
+
+                <div class="box" id="box4">
+
+                    <div class="image-container">
+                        <img src="/images/doctor4.jpeg" alt="doctor" />
+                    </div>
+
+                    <div class="info" id="box1__info">
+                        <h3>Dr. Olivia Harper</h3>
+                        <p>Vascular Surgery</p>
+                        
+                    </div>
+
+                </div>
+
+                <div class="box" id="box5">
+                    
+                    <div class="image-container">
+                        <img src="/images/doctor5.jpg" alt="doctor" />
+                    </div>
+
+                    <div class="info" id="box1__info">
+                        <h3>Dr. Sophia Bennett</h3>
+                        <p>Pain Management</p>
+                        
+                    </div>
+
+                </div>
+
+                <div class="box" id="box6">
+
+                    <div class="image-container">
+                        <img src="/images/doctor6.jpeg" alt="doctor" />
+                    </div>
+
+                    <div class="info" id="box1__info">
+                        <h3>Dr. Emily Scott</h3>
+                        <p>Andrology</p>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row" id="row3">
+
+                <div class="box" id="box7">
+
+                    <div class="image-container">
+                        <img src="/images/doctor7.jpg" alt="doctor" />
+                    </div>
+
+                    <div class="info" id="box1__info">
+                        <h3>Dr. William Carter</h3>
+                        <p>General Surgery</p>
+                        
+                    </div>
+
+                </div>
+
+                <div class="box" id="box8">
+
+                    <div class="image-container">
+                        <img src="/images/doctor8.jpg" alt="doctor" />
+                    </div>
+
+                    <div class="info" id="box1__info">
+                        <h3>Dr. Michael Turner</h3>
+                        <p>Physiotherapy</p>
+                        
+                    </div>
+
+                </div>
+
+                <div class="box" id="box9">
+
+                    <div class="image-container">
+                        <img src="/images/doctor9.jpg" alt="doctor" />
+                    </div>
+
+                    <div class="info" id="box1__info">
+                        <h3>Dr. Ava Patel</h3>
+                        <p>Plastic Surgery</p>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </main>
+
+    <footer>
+
+        <div class="footer-topline"></div>
+
+        <div class="footer-row">
+            
+            <div class="footer-box" id="footer__box1">
+
+                <h1 class="box-title"><span style="color: hsl(180, 92%, 38%)">L</span>ifeline</h1>
+                <div class="line" style="margin-top: 3px;"></div>
+
+                <div class="box1__inner__content">
+                    <div class="text" id="text1"><i class="fa-solid fa-envelope"></i><b> Email: lifeline@gmail.com</b></div>
+                    <div class="text" id="text2"><i class="fa-solid fa-phone"></i><b> Phone: +20 111 222 3333</b></div>
+                    <div class="text" id="text3"><i class="fa-regular fa-copyright"></i><b>2024 Lifeline Hospital</b></div>
+                </div>
+
+            </div>
+
+            <div class="footer-box" id="footer__box2">
+
+                <h1 class="box-title"><span style="color: hsl(180, 92%, 38%)">L</span>inks</h1>
+                <div class="line" style="margin-top: 3px; width: 45px; margin-bottom: 30px;"></div>
+
+                <a href="aboutus.html"><b>About us</b></a>
+                <a href="contact.html"><b>Contact</b></a>
+                <a href="privacypolicy.html"><b>Privacy Policy</b></a>
+                <a href="termsofservice.html"><b>Terms of Service</b></a>
+            </div>
+
+            <div class="footer-box" id="footer__box3">
+
+                <h1 class="box-title" style="color: #f9f9f9 "><span style="color: hsl(180, 92%, 38%)">S</span>ocials</h1>
+                <div class="line" style="margin-top: 3px; width: 50px; margin-bottom: 30px;"></div>
+
+                <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+        </div>
+
+    </footer>
+    
 </body>
 </html>
