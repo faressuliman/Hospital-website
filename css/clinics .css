@@ -1,5 +1,5 @@
 body {
-    background-color: #F5F8FB;
+    background-color: white;
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
     font-weight: 700;
 }
 .clinics-info {
-    background-color: white;
+    background-color: #f0f0f0;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin: 0;  
@@ -54,6 +54,7 @@ body {
 .clinics-box:hover {
     transform: scale(1.05);
     opacity: 0.9;
+    border: 2px solid hsl(180, 92%, 38%);
 }
 
 .clinics-box img {
