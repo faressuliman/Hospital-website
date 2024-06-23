@@ -17,7 +17,7 @@ footer {
     margin-right: 300px;
 }
 
-.box {
+.footer-box {
     width: 400px;
 }
 
@@ -55,30 +55,30 @@ footer {
     margin-top: 90px;
 }
 
-#box2 {
+#footer__box2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#box2 a {
+#footer__box2 a {
     font-style: normal;
     color: #f9f9f9;
     text-decoration: none;
     margin-bottom: 20px;
 }
 
-#box2 a:hover {
+#footer__box2 a:hover {
     color: hsl(180, 92%, 38%);
 }
 
-#box3 {
+#footer__box3 {
     display: flex;
     flex-direction: column;
     align-items: end;
 }
 
-#box3 i {
+#footer__box3 i {
     font-size: 25px;
     margin-bottom: 25px;
     margin-right: 30px;
@@ -86,7 +86,7 @@ footer {
     transition: 0.5s ease;
 }
 
-#box3 i:hover {
+#footer__box3 i:hover {
     transform: scale(1.15);
     color: hsl(180, 92%, 38%);
 }
