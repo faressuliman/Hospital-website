@@ -44,6 +44,12 @@ p {
 
 .content {
     width: 60%;
-    margin-right: 100px;
+    margin-right: 400px;
+    margin-top: 5px;
 }
 
+.horizontal {
+    width: 70%;
+    border-top: 2px solid grey;
+    margin-bottom: 30px;
+}
