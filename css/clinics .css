@@ -1,6 +1,6 @@
-<style>
-  body {
-    background-color: #F5F8FB;
+
+body {
+    background-color: white;
   }
 
   .container {
@@ -92,4 +92,3 @@
   .clinics-box:hover img {
     transform: scale(1.1);
   }
-</style>
