@@ -1,3 +1,18 @@
+.first-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 300px 20px 250px;
+
+}
+
+.hline {
+    width: 60px;
+    border-bottom: 2px solid hsl(180, 92%, 38%);
+    margin-top: 5px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -50,6 +65,7 @@ p {
 
 .horizontal {
     width: 70%;
-    border-top: 2px solid grey;
+    border-top: 2px solid #d4d4d4;
     margin-bottom: 30px;
 }
+
