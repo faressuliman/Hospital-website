@@ -39,21 +39,22 @@
       </script>
     </header>
     <main>
+
       <div class="title">
         <h2 style="color: hsl(0, 0%, 40%)">JOIN US</h2>
         <div class="hline"></div>
       </div>
+
       <div class="container">
-        <div class="leftsection">
-          <div class="mobile">
-            <div class="address-text">
-              <h3 style="color: hsl(0, 0%, 40%)">Create your account now!</h3>
-            </div>
+        <div class="section">
+          <div class="section-title">
+            <h3 style="color: hsl(0, 0%, 40%)">Create your account now!</h3>
           </div>
+          
           <form action="">
-            <div class="form-row">
-              <input type="text" placeholder="First Name" />
-              <input type="text" placeholder="last Name" />
+            <div class="form-row" id="names">
+              <input type="text" placeholder="First Name" id="first"/>
+              <input type="text" placeholder="Last Name" id="last"/>
             </div>
             <div class="form-row">
               <select class="select">
@@ -61,14 +62,14 @@
                 <option value="Saudi">+966</option>
                 <option value="France">+33</option>
               </select>
-              <input type="text" placeholder="Phone Number" />
-              <input type="email" placeholder="Email" />
+              <input type="text" placeholder="Phone Number" id="phonenumber"/>
+              <input type="email" placeholder="Email" id="email"/>
             </div>
             <div class="form-row">
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" id="password"/>
             </div>
             <div class="form-row">
-              <input type="password" placeholder="Confirm Password" />
+              <input type="password" placeholder="Confirm Password" id="password"/>
             </div>
             <button><i class="fa-regular fa-paper-plane"></i> SIGN UP</button>
           </form>

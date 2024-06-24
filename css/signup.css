@@ -20,9 +20,10 @@
     margin-right: 300px;
     margin-bottom: 200px;
   }
-  .leftsection {
-    flex: 0 0 56%;
-    padding: 30px;
+  .section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
     box-sizing: border-box;
     background-color: white;
     border: 1px solid hsl(180, 92%, 38%);
@@ -30,19 +31,26 @@
     border-radius: 20px;
   }
 
+  .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
   form {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    
   }
   .form-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
   }
   .form-row input {
-    flex: 1;
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
     font-size: 16px;
     margin-right: 10px;
@@ -51,13 +59,34 @@
     transition: 0.5s;
     outline: none;
   }
+
   .form-row select {
-    padding: 10px;
+    margin-right: 10px;
     font-size: 16px;
     border-radius: 10px;
     border: 2px solid hsl(0, 0%, 36%);
-    width: 71.5px;
+    width: 12%;
   }
+
+  #first {
+    padding-right: 70px;
+  }
+
+  #last {
+    padding-right: 65px;
+  }
+
+  #email {
+    padding-right: 65px;
+  }
+
+  #phonenumber {
+    padding-right: 0px;
+  }
+  #password {
+    padding-right: 64%;
+  }
+
   .form-row input:last-child {
     margin-right: 0;
   }
@@ -100,15 +129,6 @@
     margin-top: 50px;
   }
 
-  .mobile,
-  .phone,
-  .email {
-    display: flex;
-    flex-direction: row;
-    width: 10px;
-    height: 100px;
-  }
-
   .icon i {
     font-size: 20px;
     border-radius: 50%;
@@ -118,25 +138,21 @@
     background-color: hsl(180, 9%, 94%);
   }
 
-  .phone-number,
-  .email-text {
-    margin-top: 10px;
-    margin-left: 20px;
-  }
+  
   .mobile {
     display: flex;
     justify-content: center;
   }
 
-  .address-text {
+  .section-title {
     width: 100%;
   }
 
-  .mobile .address-text h3 {
+  .mobile .section-title h3 {
     text-align: center;
     color: hsl(0, 0%, 40%);
   }
-  .mobile .address-text h3 {
+  .mobile .section-title h3 {
     text-align: center;
     color: hsl(0, 0%, 40%);
   }
