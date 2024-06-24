@@ -3,10 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px 0px 50px;
+    margin: 50px 300px 50px 250px;
+
 }
 .hline {
-    width: 70px;
+    width: 60px;
     border-bottom: 2px solid hsl(180, 92%, 38%);
     margin-top: 5px;
 }

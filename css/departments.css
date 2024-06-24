@@ -1,5 +1,5 @@
 body {
-    background-color: #F5F8FB;
+    background-color: white;
 }
 
 .container {
@@ -39,7 +39,7 @@ body {
     text-align: center;
     box-sizing: border-box;
     transition: 0.7s ease;
-    overflow: hidden;  /* Prevent image from overflowing */
+    overflow: hidden;  
 }
 
 .department-box:hover {
@@ -52,15 +52,15 @@ body {
     height: auto;
     display: block;
     transition: transform 0.5s ease;
-    transform-origin: center;  /* Keep image centered while zooming */
+    transform-origin: center;  
 }
 
 .department-box:hover img {
-    transform: scale(1.1);  /* Zoom-in effect */
+    transform: scale(1.1);  
 }
 
 .department-info {
-    background-color: white;
+    background-color: #F6F6F6;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin: 0;  

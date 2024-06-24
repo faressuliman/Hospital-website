@@ -1,0 +1,96 @@
+body {
+    background-color: white;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-left: 250px;
+    margin-right: 300px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 300px;
+}
+
+.hline {
+    width: 60px;
+    border-bottom: 2px solid hsl(180, 92%, 38%);
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-bottom: 300px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    height: 35vh;
+    background-color: #f0f0f0;
+    transition: 0.7s ease;
+    border: 1px solid #cacaca;
+}
+
+#row2 {
+    margin: 50px 0px 50px 0px;
+}
+
+.image-container {
+    height: 28vh;
+    position: relative;
+    transition: 0.7s ease;
+}
+
+.image-container::after {
+    position: absolute;
+    content: "";
+    background-color: hsl(180, 92%, 38%);
+    height: 3px;
+    width: 25%;
+    left: 0;
+    bottom: -1px;
+    transition: 0.7s ease;
+}
+
+.image-container:hover::after {
+    width: 100%;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.image-container img {
+    height: 28vh;
+    width: 100%;
+}
+
+.info {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.info h3, p {
+    color: hsl(0, 0%, 0%);
+}
+
+.info h3 {
+    margin-bottom: 10px;
+}
