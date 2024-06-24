@@ -4,137 +4,139 @@
     align-items: center;
     flex-direction: column;
     margin: 50px 0px 50px;
-}
-.hline {
+  }
+  .hline {
     width: 70px;
     border-bottom: 2px solid hsl(180, 92%, 38%);
     margin-top: 5px;
-}
+  }
 
-.container {
+  .container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: center; 
+    align-items: center; 
     border-radius: 10px;
     margin-left: 250px;
     margin-right: 300px;
     margin-bottom: 200px;
-}
-.leftsection {
-    flex: 0 0 49%; 
+  }
+  .leftsection {
+    flex: 0 0 56%;
     padding: 30px;
     box-sizing: border-box;
-    background-color: white; 
+    background-color: white;
     border: 1px solid hsl(180, 92%, 38%);
     box-shadow: 0px 0px 23px #0080f917;
     border-radius: 20px;
-}
+  }
 
-form {
+  form {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-}
-.form-row {
+  }
+  .form-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 10px;
-}
-.form-row input {
+  }
+  .form-row input {
     flex: 1;
-    padding: 15px;
+    padding: 10px;
     font-size: 16px;
     margin-right: 10px;
-    border-radius: 70px;
+    border-radius: 10px;
     border: 2px solid hsl(0, 0%, 36%);
     transition: 0.5s;
-    outline: none; 
-    text-align: center;
+    outline: none;
+  }
+  .form-row select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 36%);
+    width: 71.5px;
+  }
+  .form-row input:last-child {
+    margin-right: 0;
+  }
 
-}
-.form-row select {
-    flex: 0.1;
-    padding: 2px;
-    font-size: 20px;
-    border-radius: 70px;
-    border: 2px solid hsl(0, 0%, 36%); 
-    text-align: center;
-}
-.form-row input:last-child {
-    margin-right: 0; 
-}
-
-form input:focus,
-form textarea:focus,
-form select:focus {
+  form input:focus,
+  form textarea:focus,
+  form select:focus {
     border: 2px solid hsl(180, 92%, 38%);
-}
+  }
 
-form button {
+  form button {
     padding: 15px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     background-color: hsl(180, 92%, 38%);
     border: 1px solid hsl(180, 92%, 38%);
     cursor: pointer;
-    border-radius: 70px;
+    border-radius: 10px;
     text-align: center;
     text-wrap: nowrap;
-    width: 40%;
+    width: 27%;
     transition: 0.7s ease;
-    align-self: flex-end; 
-}
+    align-self: flex-end;
+  }
 
-form button i {
+  form button i {
     margin-right: 6px;
-}
+  }
 
-form button:hover {
+  form button:hover {
     background-color: hsl(180, 81%, 34%);
     color: white;
     cursor: pointer;
-}
+  }
 
-.rightsection {
-    flex: 0 0 49%;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    box-sizing: border-box;
-    background-color: #ffffff;
-    border: 1px solid hsl(180, 81%, 34%);
-    box-shadow: 0px 0px 299px #ffffff;
-    border-radius: 20px;
-}
-
-.info-container {
+  .info-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 50px;
-}
+  }
 
-.mobile, 
-.phone, 
-.email {
+  .mobile,
+  .phone,
+  .email {
     display: flex;
     flex-direction: row;
     width: 10px;
     height: 100px;
-}
+  }
 
-.icon i {
+  .icon i {
     font-size: 20px;
     border-radius: 50%;
     margin-left: 20px;
     padding: 15px;
     color: rgb(16, 15, 15);
     background-color: hsl(180, 9%, 94%);
-}
+  }
 
-.address-text,
-.phone-number,
-.email-text {
+  .phone-number,
+  .email-text {
     margin-top: 10px;
     margin-left: 20px;
-}
+  }
+  .mobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .address-text {
+    width: 100%;
+  }
+
+  .mobile .address-text h3 {
+    text-align: center;
+    color: hsl(0, 0%, 40%);
+  }
+  .mobile .address-text h3 {
+    text-align: center;
+    color: hsl(0, 0%, 40%);
+  }

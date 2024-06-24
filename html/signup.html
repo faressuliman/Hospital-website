@@ -1,119 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/header.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/signup.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/footer.css" />
     <title>Lifeline | Sign Up</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <a href="index.html" style="text-decoration: none;">
-                <h1 style="color: grey"><span style="color:hsl(180, 92%, 38%)">L</span>ifeline</h1>
-            </a>
-        </div>
-        <nav class="navbar">
-            <a href="departments.html"><b>Departments</b></a>
-            <a href="cLinics.html"><b>Clinics</b></a>
-            <a href="doctors.html"><b>Doctors</b></a>
-            <a href="aboutus.html"><b>About us</b></a>
-            <a href="contact.html"><b>Contact</b></a>
-            <a href="app.html"><b>Appointment</a>
-        </nav>
-        <div class="signin">
-            <button class="signin-btn" id="login-btn"><i class="fa-solid fa-user"></i> Sign in</button>
-        </div>
-        <script>
-            document.getElementById("login-btn").addEventListener("click", function () {
+      <div class="logo">
+        <a href="index.html" style="text-decoration: none">
+          <h1 style="color: grey">
+            <span style="color: hsl(180, 92%, 38%)">L</span>ifeline
+          </h1>
+        </a>
+      </div>
+      <nav class="navbar">
+        <a href="departments.html"><b>Departments</b></a>
+        <a href="cLinics.html"><b>Clinics</b></a>
+        <a href="doctors.html"><b>Doctors</b></a>
+        <a href="aboutus.html"><b>About us</b></a>
+        <a href="contact.html"><b>Contact</b></a>
+        <a href="app.html"><b>Appointment</b></a>
+      </nav>
+      <div class="signin">
+        <button class="signin-btn" id="login-btn">
+          <i class="fa-solid fa-user"></i> Sign in
+        </button>
+      </div>
+      <script>
+        document
+          .getElementById("login-btn")
+          .addEventListener("click", function () {
             window.location.href = "signin.html";
-        });
-        </script>
+          });
+      </script>
     </header>
     <main>
-        
-        <div class="title">
-            <h2 style="color: hsl(0, 0%, 40%);">JOIN US</h2>
-            <div class="hline"></div>
-        </div>
-
-        <div class="container">
-            <div class="leftsection">
-                <div class="mobile">
-                    <div class="icon"><i class="fas fa-mobile-alt"></i></div>
-                    <div class="address-text"><h2 style="color: hsl(0, 0%, 40%);">Mobile</h2></div>
-                </div>
-                <form action="">
-                    <div class="form-row">
-                        <input type="text" placeholder="Full Name">
-                    </div>
-                            <div class="form-row">
-                              
-
-                        <select>
-                            <option value="Egypt">+20</option>
-                            <option value="Saudi">+966</option>
-                            <option value="France">+33</option>
-                        </select>
-                        <input type="text" placeholder="Phone Number">
-                    </div>
-                        
-                    <div class="form-row">
-                        <input type="text" placeholder="Password">
-                        
-                    </div>
-                    <button><i class="fa-regular fa-paper-plane"></i> SIGN UP</button>
-                </form>
+      <div class="title">
+        <h2 style="color: hsl(0, 0%, 40%)">JOIN US</h2>
+        <div class="hline"></div>
+      </div>
+      <div class="container">
+        <div class="leftsection">
+          <div class="mobile">
+            <div class="address-text">
+              <h3 style="color: hsl(0, 0%, 40%)">Create your account now!</h3>
             </div>
-            <div class="rightsection">
-                <div class="email">
-                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-                    <div class="address-text"><h2 style="color: hsl(0, 0%, 40%);">Email</h2></div>
-                </div>
-                <form action="">
-                <div class="form-row">
-                    <input type="text" placeholder="Full Name">
-                </div>
-                <div class="form-row">
-                    <input type="text" placeholder="Email address">
-                </div>
-                <div class="form-row">
-                    <input type="text" placeholder="Password">
-                </div>
-                <button><i class="fa-regular fa-paper-plane"></i> SIGN UP</button>
-            </form>
+          </div>
+          <form action="">
+            <div class="form-row">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="last Name" />
+            </div>
+            <div class="form-row">
+              <select class="select">
+                <option value="Egypt">+20</option>
+                <option value="Saudi">+966</option>
+                <option value="France">+33</option>
+              </select>
+              <input type="text" placeholder="Phone Number" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="form-row">
+              <input type="password" placeholder="Password" />
+            </div>
+            <div class="form-row">
+              <input type="password" placeholder="Confirm Password" />
+            </div>
+            <button><i class="fa-regular fa-paper-plane"></i> SIGN UP</button>
+          </form>
         </div>
+      </div>
     </main>
     <footer>
-        <div class="footer-topline"></div>
-        <div class="footer-row">
-            <div class="footer-box" id="footer__box1">
-                <h1 class="box-title"><span style="color: hsl(180, 92%, 38%)">L</span>ifeline</h1>
-                <div class="line" style="margin-top: 3px;"></div>
-                <div class="box1__inner__content">
-                    <div class="text" id="text1"><i class="fa-solid fa-envelope"></i><b> Email: lifeline@gmail.com</b></div>
-                    <div class="text" id="text2"><i class="fa-solid fa-phone"></i><b> Phone: +20 111 222 3333</b></div>
-                    <div class="text" id="text3"><i class="fa-regular fa-copyright"></i><b>2024 Lifeline Hospital</b></div>
-                </div>
+      <div class="footer-topline"></div>
+      <div class="footer-row">
+        <div class="footer-box" id="footer__box1">
+          <h1 class="box-title">
+            <span style="color: hsl(180, 92%, 38%)">L</span>ifeline
+          </h1>
+          <div class="line" style="margin-top: 3px"></div>
+          <div class="box1__inner__content">
+            <div class="text" id="text1">
+              <i class="fa-solid fa-envelope"></i
+              ><b> Email: lifeline@gmail.com</b>
             </div>
-            <div class="footer-box" id="footer__box2">
-                <h1 class="box-title"><span style="color: hsl(180, 92%, 38%)">L</span>inks</h1>
-                <div class="line" style="margin-top: 3px; width: 45px; margin-bottom: 30px;"></div>
-                <a href="aboutus.html"><b>About us</b></a>
-                <a href="contact.html"><b>Contact</b></a>
-                <a href="privacypolicy.html"><b>Privacy Policy</b></a>
-                <a href="termsofservice.html"><b>Terms of Service</b></a>
+            <div class="text" id="text2">
+              <i class="fa-solid fa-phone"></i><b> Phone: +20 111 222 3333</b>
             </div>
-            <div class="footer-box" id="footer__box3">
-                <h1 class="box-title" style="color: #f9f9f9 "><span style="color: hsl(180, 92%, 38%)">S</span>ocials</h1>
-                <div class="line" style="margin-top: 3px; width: 50px; margin-bottom: 30px;"></div>
-                <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                <a href="whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+            <div class="text" id="text3">
+              <i class="fa-regular fa-copyright"></i
+              ><b>2024 Lifeline Hospital</b>
             </div>
+          </div>
         </div>
+        <div class="footer-box" id="footer__box2">
+          <h1 class="box-title">
+            <span style="color: hsl(180, 92%, 38%)">L</span>inks
+          </h1>
+          <div
+            class="line"
+            style="margin-top: 3px; width: 45px; margin-bottom: 30px"
+          ></div>
+          <a href="aboutus.html"><b>About us</b></a>
+          <a href="contact.html"><b>Contact</b></a>
+          <a href="privacypolicy.html"><b>Privacy Policy</b></a>
+          <a href="termsofservice.html"><b>Terms of Service</b></a>
+        </div>
+        <div class="footer-box" id="footer__box3">
+          <h1 class="box-title" style="color: #f9f9f9">
+            <span style="color: hsl(180, 92%, 38%)">S</span>ocials
+          </h1>
+          <div
+            class="line"
+            style="margin-top: 3px; width: 50px; margin-bottom: 30px"
+          ></div>
+          <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
