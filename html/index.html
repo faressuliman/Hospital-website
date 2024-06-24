@@ -17,7 +17,7 @@
         </div>
         <nav class="navbar">
             <a href="departments.html"><b>Departments</b></a>
-            <a href="cLinics.html"><b>Clinics</b></a>
+            <a href="clinics.html"><b>Clinics</b></a>
             <a href="doctors.html"><b>Doctors</b></a>
             <a href="aboutus.html"><b>About us</b></a>
             <a href="contact.html"><b>Contact</b></a>
@@ -44,17 +44,23 @@
                 <h2 style="color: hsl(0, 0%, 40%);">Welcome to <span style="color: hsl(180, 92%, 38%) ">Lifeline</span></h2>
                 <div class="hr"></div>
                 <br />  
-                <p>We are dedicated to providing exceptional healthcare services to our community. Our state-of-the-art facility, combined with our team of highly skilled professionals, ensures that you receive the best care possible.</p><br />
-                <p>Our mission is to deliver compassionate, high-quality healthcare that meets the needs of our diverse population. We strive to improve the health and well-being of our patients through excellence in medical care, education, and research.</p><br />    
-                <p>Our team consists of dedicated physicians, nurses, therapists, and support staff who are committed to providing compassionate and personalized care. We prioritize continuous education and training to stay at the forefront of medical advancements.</p>
+                <div class="paragraph" style="width: 70%; text-align: center;">
+
+                    <p>We are dedicated to providing exceptional healthcare services to our community. Our state-of-the-art facility and skilled professionals ensure you receive the best care possible.</p><br /><br />
+
+                    <p>Our mission is to deliver compassionate, high-quality healthcare that meets the needs of our diverse population. We strive to improve the health and well-being of our patients through excellence in medical care, education, and research.</p><br /><br />   
+
+                    <p>Our team consists of dedicated physicians, nurses, therapists, and support staff who are committed to providing compassionate and personalized care. We prioritize continuous education and training to stay at the forefront of medical advancements.</p>
+
+                </div>
             </div>
         </div>
         <br />
         <br />
-        <div class="hr2"></div>
-        <div class="specalities-container">
-            <div class="specalities">
-                <h2 style="color: hsl(0, 0%, 40%);">Our Specialities</h2>
+        
+        <div class="specialities-container">
+            <div class="specialities">
+                <h2 style="color: hsl(0, 0%, 40%);">Our <span style="color: hsl(180, 92%, 38%);">Specialities</span></h2>
                 <div class="hr"></div>
                 <br />
                 <p>At our hospital, we pride ourselves on offering a wide range of specialty services designed to meet the diverse needs of our patients. Our commitment to excellence is reflected in our</p> 
@@ -121,6 +127,70 @@
                 </div>
             </div>
         </div>
+
+        <div class="quicklook-container">
+
+            <div class="quicklook-title">
+                <h2 style="color: hsl(0, 0%, 40%);">Take a quick <span style="color: hsl(180, 92%, 38%);">Look</span></h2>
+                <div class="hr"></div>
+            </div>
+
+            <div class="quicklook">
+
+                <div class="quicklook__box" id="dep">
+
+                    <div class="quicklook__box__title">
+                        <h2>Departments</h2>
+                    </div>
+
+                    <div class="quicklook__box__info">
+                        <p>Take a quick and enlightening visit to our hospital departments. Whether you're curious about the advanced medical technology we use, or the various specialized services we offer, this is your chance to see it all up close!</p>
+                    </div>
+
+                </div>
+
+                <div class="quicklook__box" id="clinics">
+
+                    <div class="quicklook__box__title">
+                        <h2>Clinics</h2>
+                    </div>
+
+                    <div class="quicklook__box__info">
+                        <p>We welcome you to take a brief and informative visit to explore our various departments. Experience firsthand the personalized attention, dedicated healthcare professionals, and specialized services that make our clinics outstanding.</p>
+                    </div>
+
+                </div>
+
+                <div class="quicklook__box" id="docs">
+
+                    <div class="quicklook__box__title">
+                        <h2>Doctors</h2>
+                    </div>
+
+                    <div class="quicklook__box__info">
+                        <p>Take a moment to visit our Doctors page, where you can learn about the highly skilled professionals dedicated to your health and well-being. Discover the diverse specialties and expertise our doctors bring to provide you with the best possible care..</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script>
+            document.getElementById("dep").addEventListener("click", function () {
+            window.location.href = "departments.html";
+        });
+
+        document.getElementById("clinics").addEventListener("click", function () {
+            window.location.href = "clinics.html";
+        });
+
+        document.getElementById("docs").addEventListener("click", function () {
+            window.location.href = "doctors.html";
+        });
+        </script>
+
     </main>
 
     <footer>
