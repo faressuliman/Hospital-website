@@ -8,6 +8,105 @@
     <link rel="stylesheet" href="/css/footer.css">
     <title>Lifeline | About Us</title>
 </head>
+<style>footer{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    border-top: 1px solid hsl(0, 0%, 69%);
+    margin-top: 150px;
+    font-weight: 700;
+}
+#title{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    
+    border-width: 3px;
+}
+#titleline1 {
+    
+    width: 50px;
+    border-bottom: 2px solid hsl(180, 92%, 38%);
+    margin-bottom: 30px;
+}
+#titleline2 {
+    width: 35px;
+    border-bottom: 2px solid hsl(180, 92%, 38%);
+    margin-bottom: 30px;
+    margin-left: 55px;
+}
+#titleline3 {
+    width: 40px;
+    border-bottom: 2px solid hsl(180, 92%, 38%);
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+span{
+    color:hsl(180, 92%, 38%);
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+#info i {
+    font-size: 20px;
+    color: hsl(180, 92%, 38%);
+    margin-right: 20px;
+}
+.first-container{
+    position: relative;
+    left: 250px;
+}
+.second-container{
+    margin-left: -130px;
+}
+.second-container #info{
+    text-align: center;
+    
+}
+.second-container a{
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease;
+}
+.second-container a:hover{
+color: hsl(180, 92%, 38%);
+}
+.third-container{
+    position: relative;
+    right: 300px;
+}
+.third-container #info{
+    text-align: center;
+    gap: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+.third-container #info a{
+    color:white;
+    transition: 0.9s ease;
+}
+.third-container #info a:hover{
+transform: scale(1.3);
+color: hsl(180, 92%, 38%);
+}
+
+.third-container #info i {
+    font-size: 25px;
+}
+.first-container #title{
+    text-align: start;
+}</style>
+
 
 <body>
     <header class="fixed-header">
@@ -111,14 +210,15 @@
          <div id="title"><span>L</span>ifeline</div>
          <div id="titleline1"></div>
          <div id="info">
+            <div><i class="fa-solid fa-map"></i>locationghjhghhjjhfh</div>
              <div><i class="fa-solid fa-envelope"></i> lifeline@gmail.com</div>
              <div style="position:relative; top: 5px;"><i class="fa-solid fa-phone"></i> 19219</div>
-             <div style="position:relative; top: 30px;"><i class="fa-solid fa-copyright"></i> 2024 Lifeline Hospital</div>
+             <div style="position:relative; top: 5px;"><i class="fa-solid fa-copyright"></i> 2024 Lifeline Hospital</div>
          </div>
         </div>
  
         <div class="second-container">
-         <div id="title"><span>L</span>inks</div>
+         <div id="title"><span>S</span>ite Content</div>
          <div id="titleline2"></div>
          <div id="info">
              <div><a href="aboutus.html">About us</a></div>
@@ -129,13 +229,16 @@
         </div>
  
         <div class="third-container">
-         <div id="title"><span>S</span>ocials</div>
+         <div id="title"><span>F</span>ollow Us</div>
          <div id="titleline3"></div>
          <div id="info">
-             <a href="#"><div><i class="fa-brands fa-facebook"></i></div></a>
-             <a href="#"><div><i class="fa-brands fa-instagram"></i></div></a>
-             <a href="#"> <div><i class="fa-brands fa-whatsapp"></i></div></a>
-         </div>
+            <a href="#"><div><i class="fa-brands fa-facebook"></i></div></a>
+            <a href="#"><div><i class="fa-brands fa-instagram"></i></div></a>
+            <a href="#"> <div><i class="fa-brands fa-whatsapp"></i></div></a>
+            <a href="#"> <div><i class="fa-brands fa-youtube"></i></div></a>
+            <a href="#"> <div><i class="fa-brands fa-twitter"></i></div></a>
+            <a href="#"> <div><i class="fa-brands fa-linkedin-in"></i></div></a>
+        </div>
         </div>
      </footer>
 </body>
