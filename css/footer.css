@@ -4,7 +4,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     padding: 30px 20px 0px 20px;
-    margin-top: 150px;
+    margin-top: 100px;
     font-weight: 700;
     border: none;
     
@@ -58,6 +58,7 @@ span{
     
 }
 .second-container{
+    margin-left: 120px;
     margin-right: 60px;
 }
 .second-container #info{
@@ -73,7 +74,7 @@ span{
 color: hsl(180, 92%, 38%);
 }
 .third-container{
-    margin-right: 300px;
+    margin-right: 280px;
 }
 .third-container #info{
     text-align: center;
