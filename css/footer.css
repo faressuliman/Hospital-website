@@ -3,7 +3,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px 20px 0px 20px;
     margin-top: 150px;
     font-weight: 700;
     border: none;
@@ -17,22 +17,23 @@ footer{
     border-width: 3px;
 }
 #titleline1 {
-    
-    width: 50px;
+    width: 45px;
     border-bottom: 2px solid hsl(180, 92%, 38%);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left: 25px;
 }
 #titleline2 {
-    width: 35px;
+    width: 70px;
     border-bottom: 2px solid hsl(180, 92%, 38%);
-    margin-bottom: 30px;
-    margin-left: 55px;
+    margin-bottom: 20px;
+    margin-left: 80px;
 }
 #titleline3 {
     width: 40px;
     border-bottom: 2px solid hsl(180, 92%, 38%);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 50px;
+    
 }
 span{
     color:hsl(180, 92%, 38%);
@@ -57,7 +58,7 @@ span{
     
 }
 .second-container{
-    margin-left: -130px;
+    margin-right: 60px;
 }
 .second-container #info{
     text-align: center;
@@ -72,8 +73,7 @@ span{
 color: hsl(180, 92%, 38%);
 }
 .third-container{
-    position:relative;
-    right: 300px;
+    margin-right: 300px;
 }
 .third-container #info{
     text-align: center;
