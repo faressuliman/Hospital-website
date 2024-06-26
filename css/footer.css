@@ -63,8 +63,12 @@ span{
 }
 .second-container #info{
     text-align: center;
-    
 }
+
+.second-container #info div {
+   margin-bottom: 7px;
+}
+
 .second-container a{
     text-decoration: none;
     color: black;
