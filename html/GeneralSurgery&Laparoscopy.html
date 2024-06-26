@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/clinicscard.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <title>Lifeline | General Surgery & Laparoscopy</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f9fb;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      h3 {
+        font-size: 23px;
+        color: #363636;
+        font-weight: 700;
+      }
+
+      .h1line {
+        width: 60px;
+        border-bottom: 2px solid hsl(180, 92%, 38%);
+        margin-top: 5px;
+      }
+
+      .left-section ul {
+        list-style-type: square;
+        list-style-position: inside;
+        padding: 0;
+        margin: 0;
+      }
+
+      .left-section li {
+        background-color: white;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        text-align: left;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .left-section li:hover {
+        background-color: hsl(180, 92%, 38%);
+        color: white;
+      }
+
+      .left-section {
+        margin-left: 230px;
+        width: 400px;
+      }
+
+      .right-section {
+        margin-top: 62px;
+        margin-right: 300px;
+      }
+
+      .left-section a {
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
+
+      .p {
+        font-size: 16px;
+        color: #858585;
+        font-weight: 500;
+        line-height: 1.8em;
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+
+      main {
+        margin-top: 70px;
+        padding: 20px;
+      }
+
+      .button {
+            background-color: #08BABA;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: 0.7s ease;
+            box-shadow: 0 4px 7px 1px rgba(21, 134, 148, .38);        }
+
+        .button:hover {
+            background-color: white;
+            color: #08BABA;
+            cursor: pointer;
+            border: 1px solid #08BABA;
+            box-shadow: 0 4px 7px 1px rgba(21, 134, 148, .38);
+        }
+    </style>
+  </head>
+  <body>
+    <header class="fixed-header">
+      <div class="logo">
+        <a href="index.html" style="text-decoration: none">
+          <h1 style="color: grey">
+            <span style="color: hsl(180, 92%, 38%)">L</span>ifeline
+          </h1>
+        </a>
+      </div>
+      <nav class="navbar">
+        <a href="departments.html"><b>Departments</b></a>
+        <a href="clinics.html"><b>Clinics</b></a>
+        <a href="doctors.html"><b>Doctors</b></a>
+        <a href="offers.html"><b>Offers</b></a>
+        <a href="contact.html"><b>Contact</b></a>
+        <a href="aboutus.html"><b>About us</b></a>
+        <a href="app.html"><b>Appointment</b></a>
+      </nav>
+      <div class="signin">
+        <button class="signin-btn" id="login-btn">
+          <i class="fa-solid fa-user"></i> Sign in
+        </button>
+      </div>
+      <script>
+        document
+          .getElementById("login-btn")
+          .addEventListener("click", function () {
+            window.location.href = "signin.html";
+          });
+      </script>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="left-section">
+          <h3>All Clinics</h3>
+          <div class="h1line"></div>
+          <br />
+          <ul>
+            <a href="cardiology.html"><li>Cardiology</li></a>
+            <a href="Internalmedicine.html"><li>Internal medicine</li></a>
+            <a href="GITEndoscopy.html"><li>GIT Endoscopy</li></a>
+            <a href="Nephrology.html"><li>Nephrology</li></a>
+            <a href="Endocrinology.html"><li>Endocrinology & Diabetes</li></a>
+            <a href="Rheumatology.html"><li>Rheumatology</li></a>
+            <a href="NeuroSpineSurgery.html"><li>Neuro Spine Surgery</li></a>
+            <a href="Oncology.html"><li>Oncology</li></a>
+            <a href="Bariatric.html"><li>Bariatric & Obesity surgery</li></a>
+            <a href="GeneralSurgery&Laparoscopy.html"><li>General Surgery & Laparoscopy</li></a>
+            <a href="PediatricCardiology.html"><li>Pediatric Cardiology</li></a>
+            <a href="VascularSurgery.html"><li>Vascular Surgery</li></a>
+            <a href="Orthopedic.html"><li>Orthopedic Surgery & Arthroscopy</li></a>
+            <a href="Neurology.html"><li>Neurology clinic</li></a>
+            <a href="PediatricNeurology.html"><li>Pediatric Neurology</li></a>
+            <a href="OncologicalSurgery.html"><li>Oncological Surgery</li></a>
+            <a href="PediatricHematology.html"><li>Pediatric Hematology</li></a>
+            <a href="Urology&Urosurgery.html"><li>Urology & Urosurgery</li></a>
+            <a href="PediatricClinicalNutrition.html"><li>Pediatric Clinical Nutrition</li></a>
+            <a href="Ultrasound.html"><li>Ultrasound</li></a>
+            <a href="BreastCancerSurgery.html"><li>Breast Cancer Surgery</li></a>
+            <a href="PediatricEndocrinologyDiabetes.html"><li>Pediatric Endocrinology Diabetes</li></a>
+            <a href="ENTSurgery.html"><li>ENT Surgery</li></a>
+            <a href="Dermatology&Andrology.html"><li>Dermatology & Andrology</li></a>
+            <a href="Obstetrics&Gynecology.html"><li>Obstetrics & Gynecology</li></a>
+            <a href="PainManagement.html"><li>Pain Management</li></a>
+            <a href="PediatricSurgery.html"><li>Pediatric Surgery</li></a>
+            <a href="PlasticSurgery.html"><li>Plastic Surgery</li></a>
+            <a href="PediatricsAndNeonatology.html"><li>Pediatrics And Neonatology</li></a>
+            <a href="GynecologicalEndoscopy&Infertility.html"><li>Gynecological Endoscopy & Infertility</li></a>
+            <a href="Physiotherapyclinic.html"><li>Physiotherapy clinic</li></a>
+            <a href="Allergy.html"><li>Allergy & Immunology</li></a>
+            <a href="ChildrenSpeechTherapy.html"><li>Children Speech Therapy</li></a>
+            <a href="ClinicalNutrition&Thinnessandobesity.html"><li>Clinical Nutrition & Thinness and obesity</li></a>
+            <a href="DentalClinic.html"><li>Dental Clinic</li></a>
+        </ul>
+        </div>
+        <div class="right-section">
+          <div>
+            <img
+              src="/images/general-surgery_md.jpg"
+              class="img"
+              alt=""
+              style="width: 73.5%"
+            /><br /><br /><br />
+          </div>
+          <div>
+            <h3>General Surgery & Laparoscopy</h3>
+            <div class="h1line"></div>
+            <br />
+            <p class="p">
+              Welcome to Lifeline Hospital General Surgery & Laparoscopy Clinic The
+              following services are performed 24 hours through a highly
+              qualified staff of surgical consultants: Laparoscopic Surgeries:
+              Cholecystectomy Appendectomy Ambulatory Phlebectomy. Breast
+              Biopsy, Core. Breast Biopsy, Open/Lumpetomy.. Hemorrhoids.
+              Hemorrhoids (Advanced) Laparoscopic Cholecystectomy. Laparoscopic
+              Colon Resection.
+            </p>
+          </div>
+          <a href="app.html">
+            <button class="button" type="submit">Book an Appointment</button></a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="first-container" style="margin-right: 300px">
+        <div id="title"><span>L</span>ifeline</div>
+        <div id="titleline1"></div>
+        <div id="info">
+          <div><i class="fa-solid fa-map"></i>locationghjhghhjjhfh</div>
+          <div><i class="fa-solid fa-envelope"></i> lifeline@gmail.com</div>
+          <div style="position: relative; top: 5px">
+            <i class="fa-solid fa-phone"></i> 19219
+          </div>
+          <div style="position: relative; top: 5px">
+            <i class="fa-solid fa-copyright"></i> 2024 Lifeline Hospital
+          </div>
+        </div>
+      </div>
+
+      <div class="second-container">
+        <div id="title"><span>S</span>ite Content</div>
+        <div id="titleline2"></div>
+        <div id="info" style="flex-direction: row">
+          <div>
+            <div><a href="Index.html">Home</a></div>
+            <div><a href="aboutus.html">About us</a></div>
+            <div><a href="offers.html">Offers</a></div>
+            <div><a href="clinics.html">Clinics</a></div>
+            <div><a href="doctors.html">Doctors</a></div>
+          </div>
+          <div>
+            <div><a href="departments.html">Departments</a></div>
+            <div><a href="app.html">Appointment</a></div>
+            <div><a href="contact.html">Contact us</a></div>
+            <div style="margin-left: 10px">
+              <a href="privacypolicy.html">Privacy Policy</a>
+            </div>
+            <div style="margin-left: 11px">
+              <a href="termsofservice.html">Terms of services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="third-container">
+        <div id="title"><span>A</span>bout Us</div>
+        <div id="titleline3" style="margin-left: 45%"></div>
+        <div>
+          <h3>
+            Our goal is the health care and safety of our <br />patients by
+            raising the level of services and <br />using the latest technologie
+            in the world <br />
+          </h3>
+        </div>
+        <br />
+        <div id="info" style="flex-direction: row">
+          <a href="#"
+            ><div><i class="fa-brands fa-facebook"></i></div
+          ></a>
+          <a href="#"
+            ><div><i class="fa-brands fa-instagram"></i></div
+          ></a>
+          <a href="#"
+            ><div><i class="fa-brands fa-whatsapp"></i></div
+          ></a>
+          <a href="#"
+            ><div><i class="fa-brands fa-youtube"></i></div
+          ></a>
+          <a href="#"
+            ><div><i class="fa-brands fa-twitter"></i></div
+          ></a>
+          <a href="#"
+            ><div><i class="fa-brands fa-linkedin-in"></i></div
+          ></a>
+        </div>
+        <br /><br />
+      </div>
+    </footer>
+  </body>
+</html>
