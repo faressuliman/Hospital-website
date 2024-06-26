@@ -10,11 +10,6 @@ main {
     display: flex;
     padding: 20px;
 }
-h3{
-font-size: 23px;
-color: #363636;
-font-weight: 700;
-}
 
 .h1line {
 width: 60px;
@@ -115,4 +110,9 @@ main {
 .left-section li.highlight {
 background-color: hsl(180, 81%, 34%);
 color: white;
+}
+
+.right-section h3 {
+    font-size: 23px;
+    color:#525252;
 }
