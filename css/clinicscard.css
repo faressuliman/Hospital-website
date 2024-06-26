@@ -109,3 +109,7 @@ main {
     border: 1px solid #08BABA;
     box-shadow: 0 4px 7px 1px rgba(21, 134, 148, .38);
 }
+.left-section li.highlight {
+background-color: hsl(180, 81%, 34%);
+color: white;
+}
