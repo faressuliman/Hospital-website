@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F9FB;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+h3{
+font-size: 23px;
+color: #363636;
+font-weight: 700;
+}
+
+.h1line {
+width: 60px;
+border-bottom: 2px solid hsl(180, 92%, 38%);
+margin-top: 5px;
+}
+
+.left-section ul {
+    list-style-type: square;
+    list-style-position: inside;
+    width: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+.left-section li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 350px;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: 0.7s ease;
+}
+.left-section li::after {
+    content: "";
+    position: absolute;
+    background-color: hsl(180, 81%, 34%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: 0px;
+    transition: 0.7s ease;
+}
+.left-section li:hover {
+    background-color: hsl(180, 81%, 34%);
+    color: white;
+}
+
+.left-section li:hover::after {
+    width: 100%;
+}
+
+.left-section {
+    margin-left: 230px;
+    width: 400px;
+}
+
+.right-section {
+    margin-top: 62px;
+    margin-right: 300px;
+    margin-left: 100px;
+}
+
+.left-section a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.p {
+    font-size: 16px;
+    color: #858585;
+    font-weight: 500;
+    line-height: 1.8em;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+
+main {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.button {
+    background-color: hsl(180, 81%, 34%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: 0.7s ease;
+    box-shadow: 0 4px 7px 1px rgba(21, 134, 148, .38);        
+}
+
+.button:hover {
+    background-color: white;
+    color: #08BABA;
+    cursor: pointer;
+    border: 1px solid #08BABA;
+    box-shadow: 0 4px 7px 1px rgba(21, 134, 148, .38);
+}
