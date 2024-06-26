@@ -10,6 +10,9 @@
     margin-right: 300px;
     margin-bottom: 100px;
 }
+main {
+    font-family: Arial, sans-serif;
+}  
 
 .container h2 {
     color: #222;

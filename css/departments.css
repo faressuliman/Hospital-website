@@ -1,7 +1,9 @@
 body {
     background-color: white;
 }
-
+main {
+    font-family: Arial, sans-serif;
+}  
 .container {
     margin-left: 250px; 
     margin-right: 300px;

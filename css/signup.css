@@ -10,6 +10,9 @@
     border-bottom: 2px solid hsl(180, 92%, 38%);
     margin-top: 5px;
   }
+  main {
+    font-family: Arial, sans-serif;
+}  
 
   .container {
     display: flex;
