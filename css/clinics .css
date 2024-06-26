@@ -31,11 +31,11 @@ body {
   }
 
   .clinics-info {
-    background-color: #F6F6F6;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 0;
   }
+  
 
   .clinics-info h3 {
     display: flex;
@@ -55,30 +55,8 @@ body {
     box-sizing: border-box;
     transition: 0.7s ease;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     position: relative; 
-  }
-
-  .clinics-box:hover {
-    transform: scale(1.05);
-    opacity: 0.9;
-    border: 1px solid #08BABA; 
-
-  }
-
-  .clinics-box::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #08BABA; 
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .clinics-box:hover::before {
-    opacity: 0.3;
   }
 
   .clinics-box img {
@@ -91,4 +69,34 @@ body {
 
   .clinics-box:hover img {
     transform: scale(1.1);
+  }
+
+  .clinics-box a {
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease;
+  }
+
+  .clinics-box a:hover {
+    color: white;
+  }
+
+  .clinics-box::after {
+    content: "";
+    position: absolute;
+    background-color: hsl(180, 81%, 34%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: 0px;
+    transition: 0.7s ease;
+  }
+
+  .clinics-box:hover {
+    background-color: hsl(180, 81%, 34%);
+    transform: scale(1.01);
+  }
+  
+  .clinics-box:hover::after {
+    width: 100%;
   }

@@ -39,11 +39,12 @@ body {
     text-align: center;
     box-sizing: border-box;
     transition: 0.7s ease;
-    overflow: hidden;  
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
 }
 
 .department-box:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     opacity: 0.9;
 }
 
@@ -60,9 +61,7 @@ body {
 }
 
 .department-info {
-    background-color: #F6F6F6;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin: 0;  
 }
 
@@ -76,3 +75,37 @@ body {
     width: 30px;  
     margin-right: 10px;  
 }
+
+.department-box a{
+    text-decoration: none;
+    color: black;
+}
+
+.department-box a {
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease;
+  }
+
+  .department-box a:hover {
+    color: white;
+  }
+
+  .department-box::after {
+    content: "";
+    position: absolute;
+    background-color: hsl(180, 81%, 34%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: 0px;
+    transition: 0.7s ease;
+  }
+
+  .department-box:hover {
+    background-color: hsl(180, 81%, 34%);
+  }
+  
+  .department-box:hover::after {
+    width: 100%;
+  }
