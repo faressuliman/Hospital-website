@@ -3,7 +3,7 @@ main {
     font-family: Arial, sans-serif;
 }  body {
     font-family: Arial, sans-serif;
-    background-color: #F7F9FB;
+    background-color: #FFFFFF;
 }
 
 .container {
@@ -115,4 +115,7 @@ color: white;
 .right-section h3 {
     font-size: 23px;
     color:#525252;
+}
+.left-section h3 {
+    font-size: 23px;
 }

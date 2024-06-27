@@ -28,6 +28,7 @@ main {
 }
 
 .container {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center; 
     align-items: flex-start; 
@@ -86,6 +87,7 @@ form select:focus {
 }
 
 form textarea {
+    font-family: Arial, sans-serif;
     padding: 10px;
     font-size: 16px;
     margin-bottom: 10px;

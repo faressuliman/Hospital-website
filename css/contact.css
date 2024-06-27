@@ -15,6 +15,7 @@ main {
 }
 
 .container {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: space-between; 
     border-radius: 10px;
@@ -78,6 +79,8 @@ form textarea {
     border: 2px solid hsl(0, 0%, 36%); 
     width: 100%;
     box-sizing: border-box; 
+    font-family: Arial, sans-serif;
+
 }
 
 form button {

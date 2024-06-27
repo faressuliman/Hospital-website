@@ -43,9 +43,9 @@ main {
 .box {
     width: 30%;
     height: 35vh;
-    background-color: #f0f0f0;
+    background-color: white;
     transition: 0.7s ease;
-    border: 1px solid #cacaca;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 #row2 {

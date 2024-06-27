@@ -56,9 +56,9 @@ header {
 }
 
 .signin button {
-    font-size: 13px;
+    font-size: 14px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 7px;
     width: 120px;
     transition: 0.7s ease;

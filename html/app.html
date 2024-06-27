@@ -42,12 +42,12 @@
         <div class="container">
             <div class="section">
                 <div>
-                    <h3 style="font-family: 'Exo', sans-serif;"> Our help desk</h3><br>
+                    <h3 style="font-family: 'Exo', sans-serif ; font-size: 22px;"> Our help desk</h3>
                     <h2 style="font-family: 'Exo', sans-serif;">Book an appointment</h2><br>
                 </div>
                 <form>
                     <div class="form-row">
-                        <select>
+                        <select required>
                             <option value="" selected disabled>Select a clinic to visit</option>
                             <option value="">Cardiology</option>
                             <option value="">Internal medicine</option>
@@ -87,12 +87,12 @@
                         </select>
                     </div>
                     <div class="form-row">
-                        <input type="text" placeholder="Full Name">
-                        <input type="text" placeholder="Phone Number" style="margin-left: -10px;">
+                        <input type="text" placeholder="Full Name" required >
+                        <input type="text" placeholder="Phone Number" style="margin-left: -10px;" required>
                     </div>
                     <div class="form-row">
-                        <input type="email" placeholder="Email">
-                        <input type="date"  placeholder="Appointment Date" style="margin-left: -10px;">
+                        <input type="email" placeholder="Email" required>
+                        <input type="date"  placeholder="Appointment Date" style="margin-left: -10px;font-family: Arial, sans-serif;" required>
                     </div>
                     <div class="form-row">
                         <textarea name="message" rows="5" placeholder="Type your necessary message here..."></textarea>
