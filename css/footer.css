@@ -26,7 +26,7 @@ footer{
     width: 70px;
     border-bottom: 2px solid hsl(180, 92%, 38%);
     margin-bottom: 20px;
-    margin-left: 80px;
+    margin-left: 65px;
 }
 #titleline3 {
     width: 40px;
@@ -60,6 +60,10 @@ span{
 .second-container{
     margin-left: 120px;
     margin-right: 60px;
+}
+
+.second-container #title {
+    margin-right: 25px;
 }
 .second-container #info{
     text-align: center;
