@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/offers.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <title>Lifeline | About Us</title>
+    <title>Lifeline | Offers</title>
 </head>
 
 <body>
@@ -56,7 +56,12 @@
                         <button class="button" type="submit">Subscribe</button>
                     </div></form>
                 </div>
-                <br><br><div class="backto"><a href="index.html">Back to Home Page</a></div>
+                <br><br><button id="back-btn">Back to Home Page</button>
+                <script>
+                    document.getElementById("back-btn").addEventListener("click", function () {
+                    window.location.href = "index.html";
+                });
+                </script>
             </div>
         </main>
 

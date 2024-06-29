@@ -78,21 +78,19 @@ p {
     cursor: pointer;
 }
 
-.backto a{
-    color:white;
+#back-btn {
+    color: white;
     font-size: 20px;
-    text-decoration: none;
-}
-
-.backto {
-    margin-top: 0px;
+    outline: none;
+    border: none;
     background-color: hsl(0, 0%, 40%);
     padding: 15px;
     border-radius: 10px;
     transition: 0.5s ease;
 }
 
-.backto:hover{
+#back-btn:hover{
     background-color: hsl(0, 0%, 20%);
     border: 1px hsl(180, 81%, 34%);
+    cursor: pointer;
 }

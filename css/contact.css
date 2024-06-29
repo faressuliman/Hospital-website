@@ -116,10 +116,10 @@ form button:hover {
 }
 
 .rightsection {
-    flex: 0 0 35%;
+    flex: 0 0 30%;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 50px 0px;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
     background-color: #f0f0f0;
@@ -133,6 +133,7 @@ form button:hover {
     flex-direction: column;
     justify-content: space-around;
     margin-top: 50px;
+    margin-left: 60px;
 }
 
 .address, 
