@@ -1,6 +1,8 @@
 main {
     font-family: Arial, sans-serif;
-}  body {
+}  
+
+body {
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
 }
@@ -20,7 +22,6 @@ main {
     margin-top: 5px;
 }
 
-
 .Container {
     display: flex;
     flex-direction: column;
@@ -29,12 +30,4 @@ main {
     margin-left: 250px;
     margin-right: 300px;
     margin-bottom: 100px;
-}
-p , li{
-    font-size: 16px;
-    color: #858585;
-    font-weight: 500;
-    line-height: 1.8em;
-    margin-top: 0;
-    margin-bottom: 1rem;
 }
