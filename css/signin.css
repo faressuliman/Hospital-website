@@ -4,13 +4,13 @@
     background-color: white;
     display: flex;
     flex-direction: row;
+    margin-left: 175px;
 }
 
 .left-section {
     margin-top: 2%;
     width: 35%;
     padding: 0px 80px;
-    margin-left: 5%;
     border-right: 1px solid #f0f0f0;
     display: flex;
     flex-direction: column;
