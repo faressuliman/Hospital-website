@@ -1,11 +1,47 @@
 .container {
-    height: 100vh;
+    height: 80vh;
     font-family: Arial, sans-serif;
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
-    justify-content:left;
-    align-items: center;
-    
+    flex-direction: row;
+}
+
+.left-section {
+    margin-top: 2%;
+    width: 35%;
+    padding: 0px 80px;
+    margin-left: 5%;
+    border-right: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 3px solid hsl(180, 92%, 38%);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.below-image {
+    padding: 50px 0px;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(0, 0%, 40%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 3px solid hsl(180, 92%, 38%)
+}
+
+.below-image h2 {
+    margin-bottom: 7px;
 }
 
 #right-side {
@@ -39,7 +75,8 @@ h1 {
 }
 
 #signin-box {
-    margin-left: 20%;
+    margin-left: 12%;
+    margin-top: 17%;
     width: 600px;
     height: 550px;
     color: hsl(0, 0%, 36%);
