@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifeline Hospital</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header class="fixed-header">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none;">
+                <h1 style="color: grey"><span style="color:hsl(180, 92%, 38%)">L</span>ifeline</h1>
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="departments.html"><b>Departments</b></a>
+            <a href="clinics.html"><b>Clinics</b></a>
+            <a href="doctors.html"><b>Doctors</b></a>
+            <a href="offers.html"><b>Offers</b></a>
+            <a href="contact.html"><b>Contact</b></a>
+            <a href="aboutus.html"><b>About us</b></a>
+            <a href="app.html"><b>Appointment</b></a>
+        </nav>
+        <div class="signin">
+            <button class="signin-btn" id="login-btn"><i class="fa-solid fa-user"></i>  Sign in</button>
+        </div>
+        <script>
+            document.getElementById("login-btn").addEventListener("click", function () {
+            window.location.href = "signin.html";
+        });
+        </script>
+    </header>
+
+    <main>
+        <div class="hospital-image">
+            <div class="hospital-image-container">
+                <img src="images/hospital.jpg" alt="hospital" />
+            </div>
+        </div>
+        <div class="intro-container">
+            <div class="intro">
+                <h2 style="color: hsl(0, 0%, 40%);">Welcome to <span style="color: hsl(180, 92%, 38%) ">Lifeline</span></h2>
+                <div class="hr"></div>
+                <br />  
+                <div class="paragraph" style="width: 70%; text-align: center;">
+
+                    <p>We are dedicated to providing exceptional healthcare services to our community. Our state-of-the-art facility and skilled professionals ensure you receive the best care possible.</p><br /><br />
+
+                    <p>Our mission is to deliver compassionate, high-quality healthcare that meets the needs of our diverse population. We strive to improve the health and well-being of our patients through excellence in medical care, education, and research.</p><br /><br />   
+
+                    <p>Our team consists of dedicated physicians, nurses, therapists, and support staff who are committed to providing compassionate and personalized care. We prioritize continuous education and training to stay at the forefront of medical advancements.</p>
+
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        
+        <div class="specialities-container">
+            <div class="specialities">
+                <h2 style="color: hsl(0, 0%, 40%);">Our <span style="color: hsl(180, 92%, 38%);">Specialities</span></h2>
+                <div class="hr"></div>
+                <br />
+                <p>At our hospital, we pride ourselves on offering a wide range of specialty services designed to meet the diverse needs of our patients. Our commitment to excellence is reflected in our</p> 
+                <p>state-of-the-art facilities, highly trained staff, and comprehensive care programs.</p>
+            </div> 
+            <div class="rectangle">
+                <div class="srow1">
+                    <div class="srow__content" id="srow1__first">
+                        <div class="icon">
+                            <i class="fa-solid fa-x-ray"></i>
+                        </div>
+                        <div class="srow__info">
+                            <h3 style="color: hsl(0, 0%, 40%); font-family: Arial, Helvetica, sans-serif;">Advanced Diagnostic Imaging</h3>
+                            <p>Offers state-of-the-art imaging services like MRI, CT scans, and X-rays for accurate diagnosis.</p>
+                        </div>
+                    </div>
+                    <div class="srow__content" id="srow1__second">
+                        <div class="icon">
+                            <i class="fa-solid fa-hand-holding-medical"></i>
+                        </div>
+                        <div class="srow__info">
+                            <h3 style="color: hsl(0, 0%, 40%); font-family: Arial, Helvetica, sans-serif;">Intensive Care Unit (ICU)</h3>
+                            <p>Equipped with specialized staff and equipment to provide comprehensive care for critically ill patients.</p>
+                        </div>
+                    </div>
+                    <div class="srow__content" id="srow1__third">
+                        <div class="icon">
+                            <i class="fa-regular fa-hospital"></i>
+                        </div>
+                        <div class="srow__info">
+                            <h3 style="color: hsl(0, 0%, 40%); font-family: Arial, Helvetica, sans-serif;">Emergency Services</h3>
+                            <p>Provides round-the-clock emergency care for critical and urgent medical situations.</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="srow2">
+                    <div class="srow__content" id="srow2__first">
+                        <div class="icon">
+                            <i class="fa-solid fa-bed-pulse"></i>
+                        </div>
+                        <div class="srow__info">
+                            <h3 style="color: hsl(0, 0%, 40%); font-family: Arial, Helvetica, sans-serif;">Inpatient and Outpatient Surgery</h3>
+                            <p>Provides facilities for both same-day surgical procedures and more complex surgeries requiring hospital stays.</p>
+                        </div>
+                    </div>
+                    <div class="srow__content" id="srow2__second">
+                        <div class="icon">
+                            <i class="fa-solid fa-house-laptop"></i>
+                        </div>
+                        <div class="srow__info">
+                            <h3 style="color: hsl(0, 0%, 40%); font-family: Arial, Helvetica, sans-serif;">Telemedicine Services</h3>
+                            <p>Enables remote consultations and follow-ups with healthcare professionals through digital platforms.</p>
+                        </div>
+                    </div>
+                    <div class="srow__content" id="srow2__third">
+                        <div class="icon">
+                            <i class="fa-solid fa-briefcase-medical"></i>
+                        </div>
+                        <div class="srow__info">
+                            <h3 style="color: hsl(0, 0%, 40%); font-family: Arial, Helvetica, sans-serif;">Rehabilitation Service</h3>
+                            <p>Offers physical, occupational, and speech therapy to aid in patient recovery and rehabilitation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quicklook-container">
+
+            <div class="quicklook-title">
+                <h2 style="color: hsl(0, 0%, 40%);">Take a quick <span style="color: hsl(180, 92%, 38%);">Look</span></h2>
+                <div class="hr"></div>
+            </div>
+
+            <div class="quicklook">
+
+                <div class="quicklook__box" id="dep">
+
+                    <div class="quicklook__box__title">
+                        <h2>Departments</h2>
+                    </div>
+
+                    <div class="quicklook__box__info">
+                        <p>Take a quick and enlightening visit to our hospital departments. Whether you're curious about the advanced medical technology we use, or the various specialized services we offer, this is your chance to see it all up close!</p>
+                    </div>
+
+                </div>
+
+                <div class="quicklook__box" id="clinics">
+
+                    <div class="quicklook__box__title">
+                        <h2>Clinics</h2>
+                    </div>
+
+                    <div class="quicklook__box__info">
+                        <p>We welcome you to take a brief and informative visit to explore our various departments. Experience firsthand the personalized attention, dedicated healthcare professionals, and specialized services that make our clinics outstanding.</p>
+                    </div>
+
+                </div>
+
+                <div class="quicklook__box" id="docs">
+
+                    <div class="quicklook__box__title">
+                        <h2>Doctors</h2>
+                    </div>
+
+                    <div class="quicklook__box__info">
+                        <p>Take a moment to visit our Doctors page, where you can learn about the highly skilled professionals dedicated to your health and well-being. Discover the diverse specialties and expertise our doctors bring to provide you with the best possible care..</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script>
+            document.getElementById("dep").addEventListener("click", function () {
+            window.location.href = "departments.html";
+        });
+
+        document.getElementById("clinics").addEventListener("click", function () {
+            window.location.href = "clinics.html";
+        });
+
+        document.getElementById("docs").addEventListener("click", function () {
+            window.location.href = "doctors.html";
+        });
+        </script>
+
+    </main>
+
+    <footer>
+        <div class="first-container" style="margin-right: 300px;">
+            <div id="title"><span>L</span>ifeline</div>
+            <div id="titleline1"></div>
+                <div id="info">
+                    <div><i class="fa-solid fa-map"></i> Alexandria, Egypt</div>
+                    <div><i class="fa-solid fa-envelope"></i> lifeline@gmail.com</div>
+                    <div style="position:relative; top: 5px;"><i class="fa-solid fa-phone"></i> 19219</div>
+                    <div style="position:relative; top: 5px;"><i class="fa-solid fa-copyright"></i> 2024 Lifeline Hospital</div>
+                </div>
+        </div>
+ 
+        <div class="second-container">
+            <div id="title"><span>S</span>ite Content</div>
+            <div id="titleline2"></div>
+            <div id="info" style="flex-direction: row;">
+                <div >
+                    <div><a href="index.html">Home</a></div>
+                    <div><a href="aboutus.html">About us</a></div>
+                    <div><a href="offers.html">Offers</a></div>
+                    <div><a href="clinics.html">Clinics</a></div>
+                    <div><a href="doctors.html">Doctors</a></div>
+                </div>
+                <div  > 
+                    <div><a href="departments.html">Departments</a></div>
+                    <div><a href="app.html">Appointment</a></div>
+                    <div><a href="contact.html">Contact us</a></div>
+                    <div style="margin-left: 10px;"><a href="privacypolicy.html">Privacy Policy</a></div>
+                    <div style="margin-left: 11px;"><a href="termsofservice.html">Terms of services</a></div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="third-container">
+            <div id="title"><span>A</span>bout Us</div>
+            <div id="titleline3" style="margin-left: 45%;"></div>
+            <div>
+                <h3>Our goal is the health care and safety of our <br>patients by raising the level of services and <br>using the latest technologie in the world <br></h3>
+            </div> <br>
+                <div id="info" style="flex-direction: row;">
+                    <a href="#"><div><i class="fa-brands fa-facebook"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-instagram"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-whatsapp"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-youtube"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-twitter"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-linkedin-in"></i></div></a>
+                </div><br><br>
+        </div>
+    </footer>
+</body>
+</html> 

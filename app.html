@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Lifeline | Appointment</title>
+</head>
+<body>
+    <header class="fixed-header">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none;">
+                <h1 style="color: grey"><span style="color:hsl(180, 92%, 38%)">L</span>ifeline</h1>
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="departments.html"><b>Departments</b></a>
+            <a href="clinics.html"><b>Clinics</b></a>
+            <a href="doctors.html"><b>Doctors</b></a>
+            <a href="offers.html"><b>Offers</b></a>
+            <a href="contact.html"><b>Contact</b></a>
+            <a href="aboutus.html"><b>About us</b></a>
+            <a href="app.html"><b>Appointment</b></a>
+        </nav>
+        <div class="signin">
+            <button class="signin-btn" id="login-btn"><i class="fa-solid fa-user"></i> Sign in</button>
+        </div>
+        <script>
+            document.getElementById("login-btn").addEventListener("click", function () {
+                window.location.href = "signin.html";
+            });
+        </script>
+    </header>
+
+    <main>
+        <div class="title">
+            <h2 style="color: hsl(0, 0%, 40%);">APPOINTMENT</h2>
+            <div class="line"></div>
+        </div>
+        <div class="container">
+            <div class="section">
+                <div>
+                    <h2 style="font-family: 'Exo', sans-serif ; font-size: 22px; margin-bottom: 15px;"> Our help desk</h2>
+                    <h3 style="font-family: 'Exo', sans-serif;">Book an appointment</h3><br>
+                </div>
+                <form>
+                    <div class="form-row">
+                        <select required>
+                            <option value="" selected disabled>Select a clinic to visit</option>
+                            <option value="">Cardiology</option>
+                            <option value="">Internal medicine</option>
+                            <option value="">GIT Endoscopy</option>
+                            <option value="">Nephrology</option>
+                            <option value="">Endocrinology & Diabetes</option>
+                            <option value="">Rheumatology</option>
+                            <option value="">Neuro Spine Surgery</option>
+                            <option value="">Oncology</option>
+                            <option value="">Bariatric & Obesity surgery</option>
+                            <option value="">General Surgery &amp; Laparoscopy</option>
+                            <option value="">Pediatric Cardiology</option>
+                            <option value="">Vascular Surgery</option>
+                            <option value="">Orthopedic Surgery &amp; Arthroscopy</option>
+                            <option value="">Neurology clinic</option>
+                            <option value="">Pediatric Neurology</option>
+                            <option value="">Oncological Surgery</option>
+                            <option value="">Pediatric Hematology</option>
+                            <option value="">Urology & Urosurgery</option>
+                            <option value="">Pediatric Clinical Nutrition</option>
+                            <option value="">Ultrasound</option>
+                            <option value="">Breast Cancer Surgery</option>
+                            <option value="">Pediatric Endocrinology Diabetes</option>
+                            <option value="">ENT Surgery</option>
+                            <option value="">Dermatology & Andrology</option>
+                            <option value="">Obstetrics & Gynecology</option>
+                            <option value="">Pain Management</option>
+                            <option value="">Pediatric Surgery</option>
+                            <option value="">Plastic Surgery</option>
+                            <option value="">Pediatrics And Neonatology</option>
+                            <option value="">Gynecological Endoscopy & Infertility, Delayed Pregnancy</option>
+                            <option value="">Physiotherapy clinic</option>
+                            <option value="">Allergy & Immunology</option>
+                            <option value="">Children Speech Therapy</option>
+                            <option value="">Clinical Nutrition &amp; Thinness and obesity</option>
+                            <option value="">Dental Clinic</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name" required >
+                        <input type="text" placeholder="Phone Number" style="margin-left: -10px;" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="email" placeholder="Email" required>
+                        <input type="date"  placeholder="Appointment Date" style="margin-left: -10px;font-family: Arial, sans-serif;" required>
+                    </div>
+                    <div class="form-row">
+                        <textarea name="message" rows="5" placeholder="Type your necessary message here..."></textarea>
+                    </div>
+                    <button>Make an Appointment</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="first-container" style="margin-right: 300px;">
+            <div id="title"><span>L</span>ifeline</div>
+            <div id="titleline1"></div>
+                <div id="info">
+                    <div><i class="fa-solid fa-map"></i> Alexandria, Egypt</div>
+                    <div><i class="fa-solid fa-envelope"></i> lifeline@gmail.com</div>
+                    <div style="position:relative; top: 5px;"><i class="fa-solid fa-phone"></i> 19219</div>
+                    <div style="position:relative; top: 5px;"><i class="fa-solid fa-copyright"></i> 2024 Lifeline Hospital</div>
+                </div>
+        </div>
+ 
+        <div class="second-container">
+            <div id="title"><span>S</span>ite Content</div>
+            <div id="titleline2"></div>
+            <div id="info" style="flex-direction: row;">
+                <div >
+                    <div><a href="Index.html">Home</a></div>
+                    <div><a href="aboutus.html">About us</a></div>
+                    <div><a href="offers.html">Offers</a></div>
+                    <div><a href="clinics.html">Clinics</a></div>
+                    <div><a href="doctors.html">Doctors</a></div>
+                </div>
+                <div  > 
+                    <div><a href="departments.html">Departments</a></div>
+                    <div><a href="app.html">Appointment</a></div>
+                    <div><a href="contact.html">Contact us</a></div>
+                    <div style="margin-left: 10px;"><a href="privacypolicy.html">Privacy Policy</a></div>
+                    <div style="margin-left: 11px;"><a href="termsofservice.html">Terms of services</a></div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="third-container">
+            <div id="title"><span>A</span>bout Us</div>
+            <div id="titleline3" style="margin-left: 45%;"></div>
+            <div>
+                <h3>Our goal is the health care and safety of our <br>patients by raising the level of services and <br>using the latest technologie in the world <br></h3>
+            </div> <br>
+                <div id="info" style="flex-direction: row;">
+                    <a href="#"><div><i class="fa-brands fa-facebook"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-instagram"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-whatsapp"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-youtube"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-twitter"></i></div></a>
+                    <a href="#"><div><i class="fa-brands fa-linkedin-in"></i></div></a>
+                </div><br><br>
+        </div>
+    </footer>
+</body>
+</html>
